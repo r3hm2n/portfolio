@@ -110,7 +110,7 @@ tl
         opacity: 1,
     })
     .to('#work h2', {
-        delay: 3,
+        delay: 7,
         filter: 'blur(0)',
         stagger: 0.3,
         duration: 0.3,
