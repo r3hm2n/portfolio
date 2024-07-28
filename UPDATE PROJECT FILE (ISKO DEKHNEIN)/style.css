@@ -627,17 +627,47 @@ section #nav {
 
 @media (max-width: 540px) {
     #section2-left-text {
-        font-size: 2vw;
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    #imagery {
+        flex-direction: column;
+        padding-left: 5vw;
+        padding-bottom: 10vw;
+
+    }
+
+    #arrow{
+        top:25%;
+        left: 80%;
+        
+    }
+
+    #section2-left-text {
+        font-size: 3vw;
+        margin-top: -15vw;
+    }
+
+    #imagery #imglef, #imgrig {
+        width: 100%;
+        display: flex;
+        margin: -23vw 0;
     }
 
     #imgrig .imgcntnr {
-        width: 90vw;
-        height: 135vw;
+        width: 40vw;
+        height: 40vw;
     }
 
-    #work .skils h2 {
-        font-size: 4vw;
+    #work{
+        margin-top: -18vw;
     }
+    #work .skils h2 {
+        font-size: 2vw;
+    }
+
+
 }
 
 
